@@ -35,8 +35,8 @@ namespace COMP003A.Assignment6
         /// <param name="numberOfWheels">Integer input for number of wheels</param>
         public Vehicle(string brand, string model, int numberOfWheels)
         {
-            brand = brand;
-            model = model;
+            Brand = brand;
+            Model = model;
             NumberOfWheels = numberOfWheels;
         }
 
