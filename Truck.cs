@@ -26,7 +26,7 @@ namespace COMP003A.Assignment6
         public Truck(string truckBrand, string truckModel, int truckNumberOfWheels, 
         double sizeOfTruckBed) : base(truckBrand, truckModel, truckNumberOfWheels)
         {
-            sizeOfTruckBed = sizeOfTruckBed;
+            SizeOfTruckBed = sizeOfTruckBed;
         }
 
         /*** properties section ***/
